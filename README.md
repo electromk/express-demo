@@ -1,6 +1,6 @@
 # Express-demo
 
-One od the many demo apps showcasing how Express.js can be used to create a basic web server. Features include:
+One of the many demo apps showcasing how Express.js can be used to create a basic web server. Features include:
 
 * Basic request/response handling
 * Serving static files (+ Bootstrap demo)
