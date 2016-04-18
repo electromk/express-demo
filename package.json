@@ -1,0 +1,29 @@
+{
+  "name": "express-demo",
+  "version": "0.0.1",
+  "description": "Demo app showcasing basic express.js functionalities.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electromk/express-demo.git"
+  },
+  "keywords": [
+    "express",
+    "demo",
+    "webserver"
+  ],
+  "author": "Marek Kawałek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/electromk/express-demo/issues"
+  },
+  "homepage": "https://github.com/electromk/express-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  }
+}

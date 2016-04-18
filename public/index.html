@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Node.js + express Demo App</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Express Demo App</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="/hello">Static route example</a></li>
+                        <li><a href="/hello/stranger">Dynamic route example</a></li>
+                        <li><a href="/whoiscool">WhoIsCool API</a></li>
+                        <li><a href="/download">Download File</a></li>
+                        <li><a href="/redirect">Redirect example</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1>Demo World!</h1>
+            <p>This is a static file coming our of the <em>public</em> directory.</p>
+            <p>It's entirely static so not really exciting...</p>
+            <hr/>
+            <p>Here's a form you can use to trigger a request to a "Hello POST" page, which demonstrates reading data from a POST request:</p>
+
+            <form method="POST" action="/hellopost">
+                <input type="text" placeholder="Your name" name="name">
+                <button class="btn" type="submit">Try it!</button>
+            </form>
+        </div>
+
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
